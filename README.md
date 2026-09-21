@@ -6,6 +6,14 @@
 
 **Live application:** https://afyaassist-uganda.vercel.app/
 
+**GitHub Repository**
+
+Source code and project files:
+https://github.com/Jane-Njeri-star/afyaassist-uganda
+
+**Project Preview:**
+https://github.com/Jane-Njeri-star/afyaassist-uganda/blob/main/AFYA%20ASSIST%20UGANDA.png
+
 ---
 
 ## Disclaimer
