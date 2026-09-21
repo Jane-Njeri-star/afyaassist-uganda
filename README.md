@@ -1,164 +1,454 @@
-# afyaassist-uganda
+# AfyaAssist Uganda — Full Project Documentation
 
-Jane Njeri
+## Healthcare Customer Support & Business Intelligence
 
-A Uganda- focused health-tech customer support and service intelligence platform
+**Cornerstone / Pathway Project — Solo Submission**
 
-
-# AfyaAssist Uganda 🇺🇬
-
-### Healthcare Customer Support & Service Intelligence Platform
-
-AfyaAssist Uganda is a health-tech customer support platform designed to make it easier for customers to report, track, and resolve healthcare service issues.
-
-The platform combines **customer support, service operations, and Business Intelligence** to help healthcare organizations understand what customers are experiencing and make better operational decisions.
-
-> **Customer complaint → Data → Insight → Decision → Better Service**
+**Live application:** https://afyaassist-uganda.vercel.app/
 
 ---
 
-## 🎯 Project Overview
+## Disclaimer
 
-Customers using healthcare and pharmacy services may experience problems such as:
+AfyaAssist Uganda is an educational prototype created as a solo **IBM Business Intelligence pathway** project. The platform demonstrates how customer-support data can be collected, organised, analysed, visualised, and transformed into actionable business insights.
 
-* Delayed medicine deliveries
-* Payment issues
-* Problems with medicine orders
-* Returns and refunds
-* Difficulty getting support
-* Unanswered questions or requests
+All customer records, complaints, satisfaction scores, response times, and operational metrics used in the demonstration are synthetic. The project does not process real patient information and is not intended to replace a clinical system, medical advice, or a production healthcare customer-support platform.
 
-AfyaAssist provides a centralized support experience where customers can report these issues and track their requests.
-
-Behind the customer-facing experience, the platform demonstrates how support data can be transformed into insights for managers and decision-makers.
+IBM concepts and terminology are used to demonstrate pathway alignment. AfyaAssist Uganda is an independent student project and is not an official IBM product, service, or endorsement.
 
 ---
 
-## 💡 The Problem
+## Field | Value
 
-Healthcare service providers can receive large numbers of customer requests across different channels.
-
-Without structured support data, it can be difficult for management to answer questions such as:
-
-* What problems are customers reporting most often?
-* Which locations generate the most complaints?
-* How quickly are support teams responding?
-* How long does it take to resolve issues?
-* Are customers satisfied with the support they receive?
-* Which issues are increasing over time?
-* Where should management focus operational improvements?
-
-AfyaAssist addresses this problem by organizing customer support information into a structure that can be analyzed.
+| Field                  | Value                                          |
+| ---------------------- | ---------------------------------------------- |
+| **Pathway**            | Business Intelligence — NLP, Marketing & Sales |
+| **Project type**       | Solo project                                   |
+| **Sector of interest** | HealthTech                                     |
+| **Country / context**  | Uganda                                         |
+| **Application**        | AfyaAssist Uganda                              |
+| **Audience features**  | Customer Support                               |
+| **Primary audiences**  | Customers, Support Agents & Management         |
+| **BI feature**         | Customer Support Intelligence                  |
+| **Data**               | Synthetic demonstration data                   |
+| **Deployment**         | Vercel                                         |
+| **Live application**   | https://afyaassist-uganda.vercel.app/          |
+|
 
 ---
 
-## 🚀 The Solution
+# 1. What AfyaAssist Uganda Is
 
-AfyaAssist brings together three key components:
+**AfyaAssist Uganda** is a healthcare customer-support platform designed around a simple question:
 
-### 1. Customer Support
+> **How can we help you today?**
 
-Customers can:
+The platform provides customers with a central place to request assistance with common healthcare-service issues such as:
 
-* Select the type of help they need
-* Describe their problem
-* Provide their location
-* Submit a support request
-* Track their support requests
-* View frequently asked questions
+* Medicine orders
+* Delivery
+* Payments
+* Returns
+* Refunds
+* Speaking with healthcare support
+* General questions
 
-### 2. Support Operations
+The project goes beyond a customer-facing interface.
 
-Support agents can view and manage incoming requests, including:
+Its **Business Intelligence component** demonstrates how customer-support interactions can become a source of operational intelligence for management.
 
-* Ticket priority
-* Customer information
+Instead of simply recording complaints, the system can help an organisation understand:
+
+* What customers are struggling with
+* Which issues occur most frequently
+* How quickly support teams respond
+* How long issues take to resolve
+* How satisfied customers are
+* Which areas may require operational improvement
+
+### Core BI workflow
+
+**Customer Interaction → Operational Data → Analysis → Insights → Recommendations → Business Decision**
+
+The objective is to demonstrate how Business Intelligence can move an organisation from **collecting information to using information for better decisions.**
+
+---
+
+# 2. IBM Business Intelligence Pathway Likeness
+
+AfyaAssist Uganda was developed within the **IBM Business Intelligence pathway**, with pathway areas including:
+
+* **Natural Language Processing (NLP)**
+* **Marketing & Sales**
+* **Business Intelligence**
+
+The project applies these concepts to a **HealthTech customer-support environment**.
+
+AfyaAssist does not reproduce IBM software or claim to be an IBM product. Instead, IBM Business Intelligence concepts provide the framework for demonstrating how business data can be transformed into insights and decision support.
+
+### IBM BI Concept → AfyaAssist Implementation
+
+| IBM / BI Concept                | AfyaAssist Implementation                                                        |
+| ------------------------------- | -------------------------------------------------------------------------------- |
+| **Data sources**                | Synthetic customer-support interactions and operational records                  |
+| **Data preparation**            | Structuring support interactions by category, status and performance metrics     |
+| **Business Intelligence**       | Analysing customer-support and operational performance                           |
+| **KPIs**                        | Complaint volume, customer satisfaction, response time and resolution time       |
+| **Data visualisation**          | Customer-support intelligence dashboard                                          |
+| **Reporting**                   | Management-oriented summaries of support performance                             |
+| **NLP potential**               | Analysing customer questions, complaints and support text                        |
+| **Marketing & Sales relevance** | Understanding customer needs, service experience and recurring customer concerns |
+| **Customer analytics**          | Identifying patterns in customer interactions and satisfaction                   |
+| **Decision support**            | Translating patterns into recommendations for operational improvement            |
+| **Data storytelling**           | Connecting metrics and trends to business questions and actions                  |
+
+---
+
+# 3. Business Problem
+
+Healthcare organisations interact with customers through multiple service channels.
+
+A customer may experience a problem with:
+
+* An order
+* Medicine delivery
+* Payment
+* Refund processing
+* Communication with support
+* General service information
+
+If these interactions are treated only as individual support tickets, management may struggle to see broader patterns.
+
+For example:
+
+> Are delivery complaints increasing?
+
+> Which issue category generates the most support requests?
+
+> Are customers waiting too long for responses?
+
+> Which support areas have the lowest satisfaction?
+
+> Is faster resolution associated with higher customer satisfaction?
+
+AfyaAssist demonstrates how these questions can be approached using structured customer-support data and Business Intelligence.
+
+---
+
+# 4. Sector of Interest — HealthTech
+
+AfyaAssist is positioned within **HealthTech**, where digital tools can support healthcare-related services and customer experiences.
+
+The project focuses specifically on the **customer-support layer** of a healthcare service.
+
+Rather than attempting to diagnose patients or replace clinical systems, AfyaAssist addresses operational questions around the customer journey.
+
+This includes:
+
+**Customer → Service Request → Support → Resolution → Feedback → Analysis**
+
+This creates an opportunity for Business Intelligence to help healthcare organisations understand the service experience surrounding their customers.
+
+---
+
+# 5. Audience Feature — Customer Support
+
+The primary audience feature of AfyaAssist is **Customer Support**.
+
+The platform considers three connected perspectives.
+
+### Customer
+
+Customers can request assistance with:
+
+* Medicine orders
+* Delivery
+* Payments
+* Returns
+* Refunds
+* Healthcare support
+* General questions
+
+### Support Agent
+
+Support agents represent the operational layer.
+
+They handle customer issues and generate information that can later be analysed.
+
+Relevant operational metrics include:
+
+* Response time
+* Resolution time
 * Issue category
-* Ticket status
-* Response
-* Assignment
-* Escalation
-* Resolution
-* Internal notes
+* Support status
+* Customer satisfaction
 
-### 3. Business Intelligence
+### Management / BI
 
-Managers can use the Service Intelligence dashboard to monitor:
+Management uses aggregated support information to understand the bigger picture.
 
-* Total support tickets
-* Resolution rate
-* Average response time
-* Average resolution time
-* Customer satisfaction (CSAT)
-* Escalation rate
-* Repeat complaint rate
-* Complaint categories
-* Geographic distribution
-* Support trends
-* Agent performance
+The BI perspective focuses on:
+
+* What problems customers experience
+* How frequently they occur
+* How efficiently they are handled
+* How customers respond to the service
+* Where operational improvements may be needed
+
+This creates a connection between **customer support operations and management intelligence**.
 
 ---
 
-## 📊 Business Intelligence Layer
+# 6. Business Intelligence Objective
 
-The BI component is the core of this portfolio project.
+The main objective is to create a simple decision-support layer for a healthcare customer-support operation.
 
-The platform demonstrates how customer support data can support operational decision-making.
+The BI component is designed to help management:
 
-### Example business questions
+1. Monitor customer-support performance.
+2. Identify recurring customer problems.
+3. Track response and resolution times.
+4. Understand customer satisfaction.
+5. Detect operational areas requiring attention.
+6. Turn support data into actionable recommendations.
 
-**Customer experience**
+The project therefore focuses on the difference between:
 
-> Which issues are causing the most customer frustration?
+**Reporting what happened**
 
-**Operations**
+and
 
-> Where are support teams experiencing the greatest workload?
-
-**Geography**
-
-> Which locations generate the highest number of support requests?
-
-**Performance**
-
-> How quickly are customer issues being resolved?
-
-**Trend analysis**
-
-> Are particular complaint categories increasing over time?
-
-**Decision-making**
-
-> What operational changes could reduce repeat complaints?
+**Using data to understand what is happening and what should be investigated next.**
 
 ---
 
-## 📈 Example Insights
+# 7. Customer Support Intelligence Dashboard
 
-The dashboard uses **synthetic demonstration data** to illustrate the type of analysis a healthcare organization could perform.
+The management dashboard represents the main BI feature of the project.
 
-Example findings include:
+It transforms customer-support records into management-level information.
 
-* Delivery-related complaints represent a significant share of support requests.
-* Refund-related issues indicate an opportunity to improve communication and transparency.
-* Complaint volumes vary across locations.
-* Monitoring response and resolution times can help identify operational bottlenecks.
-* Customer satisfaction can be analyzed alongside issue categories and support performance.
+### Key metrics
 
-These insights can then be translated into recommendations for management.
+**Customer complaints**
+
+Number of customer-support issues recorded.
+
+**Customer satisfaction**
+
+A measure of how customers rate their support experience.
+
+**Average response time**
+
+How long customers wait before receiving an initial response.
+
+**Average resolution time**
+
+How long it takes to resolve a customer issue.
+
+**Issue categories**
+
+The types of problems generating support demand.
+
+### Analytical questions
+
+The dashboard is designed around questions such as:
+
+* Which issue types generate the highest volume?
+* Which areas have lower customer satisfaction?
+* Are response times improving or worsening?
+* Which issues take longest to resolve?
+* Where should management investigate operational bottlenecks?
+* Is there a relationship between resolution time and satisfaction?
 
 ---
 
-## 🛠️ Technologies Used
+# 8. NLP Opportunity
+
+The **NLP component** of the IBM Business Intelligence pathway provides an important future direction for AfyaAssist.
+
+Customer-support interactions naturally produce text:
+
+* Customer questions
+* Complaints
+* Feedback
+* Support conversations
+* Service requests
+
+A future version of AfyaAssist could use NLP techniques to analyse this text and identify:
+
+* Common topics
+* Frequently mentioned problems
+* Customer sentiment
+* Emerging complaints
+* Recurring questions
+* Urgent support themes
+
+For example:
+
+```text
+Customer Messages
+       ↓
+Text Processing
+       ↓
+Topic / Sentiment Analysis
+       ↓
+Common Issues Identified
+       ↓
+BI Dashboard
+       ↓
+Management Insight
+```
+
+This would connect **NLP with Business Intelligence**, allowing unstructured customer feedback to become another source of business insight.
+
+---
+
+# 9. Marketing & Sales Relevance
+
+Although AfyaAssist focuses primarily on customer support, the project also connects to the **Marketing & Sales** dimension of the pathway.
+
+Customer-support interactions can reveal information about customer needs and service experience.
+
+For example, analysing customer questions could help an organisation understand:
+
+* What services customers ask about most
+* Which products generate repeated questions
+* Where customers experience friction
+* Which services may require clearer communication
+* What customers value in the service experience
+
+This information could potentially support marketing, customer-retention, service-design, and sales-related decisions.
+
+The project therefore demonstrates how **customer-support data can extend beyond support and contribute to broader business intelligence.**
+
+---
+
+# 10. From Data to Decision
+
+A major purpose of the project is demonstrating the Business Intelligence process.
+
+### Step 1 — Capture
+
+Customer interactions generate structured records.
+
+### Step 2 — Organise
+
+Records are categorised according to issues such as delivery, payment, refunds, and orders.
+
+### Step 3 — Analyse
+
+Metrics such as complaint volume, response time, resolution time, and satisfaction are calculated.
+
+### Step 4 — Identify patterns
+
+The dashboard helps reveal recurring issues and performance differences.
+
+### Step 5 — Develop recommendations
+
+Management can investigate the operational causes behind those patterns.
+
+### Step 6 — Take action
+
+The organisation can use the findings to improve customer-support processes.
+
+### BI cycle
+
+**Data → Information → Insight → Recommendation → Action**
+
+---
+
+# 11. Example Business Insights
+
+The synthetic dataset demonstrates the type of insights a BI analyst could produce.
+
+### Customer-support demand
+
+If delivery-related complaints represent a large proportion of total support requests, management could investigate delivery processes, communication, fulfilment delays, or delivery coverage.
+
+### Response performance
+
+If certain categories have significantly longer response times, management could examine staffing levels, escalation procedures, or workflow bottlenecks.
+
+### Resolution performance
+
+High resolution times in a particular category may indicate that support agents need additional information, clearer procedures, or escalation pathways.
+
+### Customer satisfaction
+
+Lower satisfaction in a specific issue category could indicate that the underlying process—not simply the support interaction—needs investigation.
+
+### Management opportunity
+
+The purpose is not simply to identify that a metric is high or low.
+
+The next question is:
+
+> **What operational factor could explain the pattern, and what should management investigate?**
+
+---
+
+# 12. Recommendations Framework
+
+AfyaAssist demonstrates how a BI analyst can move from an observation to a recommendation.
+
+| Observation              | Business Question                        | Possible Investigation / Action               |
+| ------------------------ | ---------------------------------------- | --------------------------------------------- |
+| High delivery complaints | What is causing delivery problems?       | Investigate fulfilment and delivery processes |
+| Long response times      | Where are support bottlenecks occurring? | Review staffing and ticket allocation         |
+| Long resolution times    | Which issues require escalation?         | Review escalation procedures                  |
+| Low satisfaction         | What is driving dissatisfaction?         | Investigate the customer journey              |
+| Repeated questions       | Which information is unclear?            | Improve FAQs and self-service information     |
+
+These are **investigation-led recommendations**, rather than assuming that a single dashboard metric automatically explains its cause.
+
+---
+
+# 13. User Experience
+
+The platform follows a simple customer-support journey.
+
+### Language
+
+Users can select a preferred language:
+
+* English
+* Luganda
+* Swahili
+
+### Support category
+
+The customer selects the type of assistance required.
+
+### Support interaction
+
+The platform conceptually connects the customer with the relevant support process.
+
+### Management intelligence
+
+Aggregated support information can then be analysed through the BI layer.
+
+This creates two connected experiences:
+
+**Customer Experience**
+
+and
+
+**Management Intelligence.**
+
+---
+
+# 14. Technology
 
 ### Frontend
 
-* HTML5
+* HTML
 * CSS
 * JavaScript
 * Tailwind CSS
+* Responsive web interface
 
-### Data Visualization
+### Data visualisation
 
 * Chart.js
 
@@ -166,205 +456,377 @@ These insights can then be translated into recommendations for management.
 
 * Font Awesome
 
-### Development Tools
+### Deployment
 
-* Visual Studio Code
-* GitHub
 * Vercel
 
----
+### Business Intelligence
 
-## 🌍 Uganda-Focused Design
+* KPI development
+* Data categorisation
+* Trend analysis
+* Customer-support analytics
+* Operational performance
+* Data storytelling
+* Insight generation
+* Recommendations
 
-AfyaAssist was designed specifically around the Ugandan context.
+### IBM pathway areas
 
-The platform includes:
-
-* Uganda-inspired visual styling
-* Ugandan locations such as Kampala, Wakiso, Jinja, Mbarara and Gulu
-* English, Luganda and Swahili language options
-* Healthcare and pharmacy-related customer support scenarios
-
-The goal is to demonstrate how a digital product can be adapted to a specific market rather than building a generic global support platform.
-
----
-
-## 👥 User Roles
-
-The prototype demonstrates three main user experiences.
-
-### Customer
-
-Customers can submit and track support requests.
-
-### Support Agent
-
-Agents can manage incoming customer support tickets.
-
-### Manager / BI
-
-Managers can monitor service performance and analyze customer support data.
-
-> **Note:** The current role selector is a demonstration feature. A production version would require authentication and role-based access control.
+* Business Intelligence
+* NLP
+* Marketing & Sales
 
 ---
 
-## 🔄 How the Platform Works
+# 15. Architecture
+
+Conceptually, the platform follows:
 
 ```text
 Customer
    ↓
-Reports an issue
+Support Interaction
    ↓
-Support Ticket
+Issue / Category
    ↓
-Support Team
+Operational Data
    ↓
-Resolution
+BI Analysis
    ↓
-Customer Feedback
+KPIs & Visualisations
    ↓
-Support Data
+Insights
    ↓
-Business Intelligence
+Recommendations
    ↓
-Insights & Recommendations
-   ↓
-Operational Decisions
-   ↓
-Better Customer Service
+Management Decision
+```
+
+With the potential NLP extension:
+
+```text
+Customer Support Text
+        ↓
+       NLP
+        ↓
+Topics / Sentiment / Patterns
+        ↓
+Structured Insights
+        ↓
+BI Dashboard
+        ↓
+Decision Support
 ```
 
 ---
 
-## 📌 Current Prototype
+# 16. Project Structure
 
-This project is currently a **frontend prototype** designed to demonstrate the product concept, user experience, and Business Intelligence layer.
+A simplified conceptual structure is:
 
-The current version uses synthetic data for demonstration purposes.
-
-It does not currently include:
-
-* A production database
-* Real customer accounts
-* Real authentication
-* Live payment processing
-* Real patient information
-* Persistent ticket storage
-* Production-grade role permissions
-* Live healthcare-provider integrations
-
-No real patient or customer data is used.
+```text
+AfyaAssist Uganda
+│
+├── Customer Experience
+│   ├── Language Selection
+│   ├── Medicine Orders
+│   ├── Delivery
+│   ├── Payments
+│   ├── Returns
+│   ├── Refunds
+│   └── Healthcare Support
+│
+├── Customer Support
+│   ├── Customer Issues
+│   ├── Support Categories
+│   ├── Response Time
+│   ├── Resolution Time
+│   └── Satisfaction
+│
+└── Business Intelligence
+    ├── KPIs
+    ├── Issue Analysis
+    ├── Customer Satisfaction
+    ├── Operational Performance
+    ├── NLP Opportunity
+    ├── Insights
+    └── Recommendations
+```
 
 ---
 
-## 🔮 Future Improvements
+# 17. BI Questions Demonstrated
 
-A production-ready version could include:
+The project is designed around practical business questions rather than visualisation alone.
 
-### Backend & Database
+### Customer
 
-* Persistent ticket storage
-* Customer accounts
-* Support-agent accounts
-* Role-based permissions
-* Real-time ticket updates
+**What problem is the customer experiencing?**
 
-### Customer Experience
+### Support
 
-* SMS notifications
-* WhatsApp integration
-* Mobile-first improvements
-* Multilingual content
-* Customer satisfaction surveys
+**How efficiently is the support team responding?**
+
+### Management
+
+**Where are the major operational issues?**
 
 ### Business Intelligence
 
-* Live operational dashboards
-* Automated alerts
-* Complaint trend forecasting
+**What does the data suggest management should investigate?**
+
+### NLP
+
+**What can customer conversations and feedback tell us at scale?**
+
+### Marketing & Sales
+
+**What can customer interactions reveal about customer needs and service experience?**
+
+This reflects the role of a BI analyst as someone who connects **data, business questions, and decisions.**
+
+---
+
+# 18. Data Storytelling
+
+The dashboard follows a storytelling structure:
+
+### What is happening?
+
+Present the most important KPIs and trends.
+
+### Where is it happening?
+
+Break performance down by issue category or service area.
+
+### Why should management care?
+
+Connect the pattern to customer experience and operational performance.
+
+### What should be investigated?
+
+Identify areas requiring further analysis.
+
+### What action could follow?
+
+Translate the insight into a practical business recommendation.
+
+The goal is to move beyond:
+
+**"Here is the data."**
+
+toward:
+
+**"Here is what the data may be telling the organisation, and here is what should be investigated next."**
+
+---
+
+# 19. Future Development
+
+Potential future improvements include:
+
+### NLP-powered support analytics
+
+Analyse customer conversations to identify topics, sentiment, recurring questions, and emerging issues.
+
+### Data warehouse
+
+Create a structured analytical database for historical support data.
+
+### Automated reporting
+
+Generate scheduled management reports covering:
+
+* Support volume
+* Satisfaction
+* Response performance
+* Resolution performance
+* Emerging issues
+
+### Advanced analytics
+
+Introduce:
+
 * Customer segmentation
-* Repeat-complaint analysis
-* Agent workload analysis
-* Location-level performance monitoring
+* Trend analysis
+* Root-cause analysis
+* Service-level monitoring
+* Repeat-contact analysis
 
-### Healthcare Integration
+### Real-time monitoring
 
-* Pharmacy/order management integration
-* Delivery tracking
-* Healthcare-provider support systems
-* Secure API integrations
+Provide management with near-real-time visibility into customer-support demand.
 
----
+### Marketing & customer analytics
 
-## 🔐 Privacy & Security
+Use support data to better understand customer needs and service experience.
 
-Because this concept relates to healthcare services, privacy and security would be critical in a production implementation.
+### Decision intelligence
 
-A real deployment would need appropriate measures for:
-
-* Customer authentication
-* Access control
-* Data encryption
-* Secure APIs
-* Audit logging
-* Protection of personal information
-* Appropriate healthcare data governance
-
-The current project uses **synthetic data only**.
+Move from descriptive dashboards toward systems that help management identify patterns, investigate causes, and evaluate potential actions.
 
 ---
 
-## 🎯 Portfolio Objective
+# 20. Limitations
 
-This project was built as part of my Business Intelligence learning journey to demonstrate my ability to think beyond dashboards and connect data analysis with business problems.
+### Synthetic data
 
-The project focuses on the complete analytics cycle:
+The project uses fictional demonstration data rather than real customer or healthcare records.
 
-**Problem → Data → Analysis → Insight → Recommendation → Decision**
+### Prototype support workflows
 
-Rather than simply reporting numbers, the goal is to show how customer support data can help an organization understand its customers, identify operational problems, and improve service delivery.
+The support functionality demonstrates the concept and user experience rather than operating as a production healthcare support system.
+
+### Limited analytical dataset
+
+A production implementation would require larger historical datasets to establish reliable trends and benchmarks.
+
+### No real clinical integration
+
+The platform does not connect to hospital information systems, pharmacy systems, payment systems, or real patient records.
+
+### NLP is a future extension
+
+The current prototype establishes the customer-support context for NLP rather than claiming to provide production-grade NLP analysis.
+
+### BI interpretation
+
+Dashboard patterns should be investigated alongside operational context before management makes decisions.
 
 ---
 
-## 👩🏽‍💻 Author
+# 21. Live Demo
+
+**Live application:**
+
+https://afyaassist-uganda.vercel.app/
+
+### Suggested demonstration flow
+
+**1. Introduce AfyaAssist Uganda**
+
+Explain the healthcare customer-support problem.
+
+**2. Show the customer experience**
+
+Demonstrate the language options and support categories.
+
+**3. Explain the customer-support workflow**
+
+Show how customer interactions can become structured operational data.
+
+**4. Introduce the BI perspective**
+
+Show how support information can be transformed into management intelligence.
+
+**5. Explain the KPIs**
+
+Discuss:
+
+* Complaint volume
+* Satisfaction
+* Response time
+* Resolution time
+* Issue categories
+
+**6. Connect to the IBM pathway**
+
+Explain how the project aligns with:
+
+* Business Intelligence
+* NLP
+* Marketing & Sales
+
+**7. Demonstrate insight → recommendation**
+
+Show how a BI analyst moves from a pattern in the data to a business question and potential action.
+
+---
+
+# 22. Project Value
+
+AfyaAssist demonstrates a broader Business Intelligence concept:
+
+> **Operational systems generate data that can become a strategic resource when it is analysed effectively.**
+
+The project connects three layers:
+
+### Customer Experience
+
+What customers need.
+
+↓
+
+### Customer Support Operations
+
+How the organisation responds.
+
+↓
+
+### Business Intelligence
+
+What management can learn from the resulting data.
+
+The project also creates a foundation for:
+
+**NLP → Customer Feedback → BI → Insights → Decision Support**
+
+This demonstrates how a BI analyst can connect **technical analysis with business problems**, rather than treating dashboards as an end in themselves.
+
+---
+
+# 23. IBM Pathway Alignment Summary
+
+| Pathway Area              | How AfyaAssist Demonstrates It                                                     |
+| ------------------------- | ---------------------------------------------------------------------------------- |
+| **Business Intelligence** | KPIs, dashboarding, operational analysis, insights and recommendations             |
+| **NLP**                   | Customer-support text provides a potential source for topic and sentiment analysis |
+| **Marketing & Sales**     | Customer interactions provide insight into customer needs and service experience   |
+| **Customer Support**      | Core audience feature of the platform                                              |
+| **Data Storytelling**     | Converts metrics into business questions and recommendations                       |
+| **Decision Support**      | Connects analytical findings to management investigation and action                |
+| **HealthTech**            | Applies BI concepts to a healthcare-service environment                            |
+
+---
+
+# 24. Submission Checklist
+
+* [x] Solo project
+* [x] IBM Business Intelligence pathway
+* [x] NLP pathway relevance
+* [x] Marketing & Sales pathway relevance
+* [x] HealthTech sector of interest
+* [x] Uganda-focused case study
+* [x] Customer Support audience feature
+* [x] Customer-facing healthcare support concept
+* [x] Management / BI perspective
+* [x] Customer-support KPIs
+* [x] Data visualisation
+* [x] Insights and recommendations
+* [x] Synthetic demonstration data
+* [x] Responsive web interface
+* [x] Live Vercel deployment
+* [x] Business Intelligence storytelling approach
+
+---
+
+# 25. Live Application
+
+## AfyaAssist Uganda
+
+### Healthcare support, made simpler.
+
+**Live demo:**
+https://afyaassist-uganda.vercel.app/
+
+---
+
+## Author
 
 **Jane Njeri**
 
-Aspiring Business Intelligence Data Analyst
+**Business Intelligence | Data Analytics | HealthTech**
 
-Skills demonstrated through this project include:
-
-* Business Intelligence
-* Data Analysis
-* Data Visualization
-* Customer Experience Analytics
-* SQL
-* Excel
-* Power BI
-* Python
-* Business Problem Solving
-* Insight & Recommendation Development
-
----
-
-## 📄 Project Status
-
-**Status:** Frontend prototype / Portfolio project
-
-**Focus:** Healthcare technology + Customer Support + Business Intelligence
-
-**Market:** Uganda 🇺🇬
-
-**Data:** Synthetic demonstration data
-
----
-
-## ⭐ Key Takeaway
-
-AfyaAssist Uganda demonstrates how a customer-support platform can become more than a place to submit complaints.
-
-It can become a source of **business intelligence**.
-
-By turning customer interactions into structured data, organizations can identify recurring problems, understand customer experiences, improve operational performance, and make evidence-based decisions.
-
+GitHub:
+https://github.com/Jane-njeri-star
